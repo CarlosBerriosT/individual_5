@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    android:padding="16dp">
+
+
+    <!-- Botón para incrementar el contador -->
+
+    <!-- TextView para mostrar el contador -->
+
+    <Button
+        android:id="@+id/buttonToast"
+        android:layout_width="193dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="48dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:padding="16dp"
+        android:text="Mostrar Mensaje"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonCounter"
+        android:layout_width="193dp"
+        android:layout_height="79dp"
+        android:layout_below="@id/buttonToast"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-76dp"
+        android:layout_marginEnd="116dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/design_default_color_background"
+        android:padding="16dp"
+        android:text="Contador"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="522dp"
+        app:srcCompat="@drawable/icons8_contador_100" />
+
+    <TextView
+        android:id="@+id/textViewCounter"
+        android:layout_width="373dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="307dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="48dp"
+        android:text="Contador: 0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
