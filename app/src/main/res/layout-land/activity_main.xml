@@ -7,9 +7,7 @@
     android:padding="16dp">
 
 
-    <!-- Botón para incrementar el contador -->
 
-    <!-- TextView para mostrar el contador -->
 
     <Button
         android:id="@+id/buttonToast"

@@ -23,7 +23,7 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <!-- Botón para incrementar el contador -->
+
     <Button
         android:id="@+id/buttonCounter"
         android:layout_width="193dp"
@@ -40,7 +40,7 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
-    <!-- TextView para mostrar el contador -->
+
 
     <TextView
         android:id="@+id/textViewCounter"
